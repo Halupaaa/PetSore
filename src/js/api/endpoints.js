@@ -1,5 +1,5 @@
 export const endpoints = {
-  items: "/items",
-  categories: "/categories",
-  reviews: "/reviews"
+  items: "/test/items",
+  categories: "/test/categories",
+  reviews: "/test/reviews"
 };

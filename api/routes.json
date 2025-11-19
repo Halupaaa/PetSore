@@ -1,4 +1,5 @@
 {
+  "/test/items": "/test_items",
   "/topic1/assets": "/t1_assets",
   "/topic1/assets/:id": "/t1_assets/:id",
   "/topic1/transactions": "/t1_transactions",

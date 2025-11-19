@@ -1,4 +1,54 @@
 {
+  "test_items": [
+    {
+      "id": 1,
+      "title": "TestTitle1",
+      "category": "Test category",
+      "price": 1000
+    },
+    {
+      "id": 2,
+      "title": "TestTitle2",
+      "category": "Test category",
+      "price": 2000
+    },
+    {
+      "id": 3,
+      "title": "TestTitle3",
+      "category": "Test category",
+      "price": 3000
+    },
+    {
+      "id": 4,
+      "title": "TestTitle4",
+      "category": "Test category",
+      "price": 4000
+    },
+    {
+      "id": 5,
+      "title": "TestTitle5",
+      "category": "Test category",
+      "price": 5000
+    },
+    {
+      "id": 6,
+      "title": "TestTitle6",
+      "category": "Test category",
+      "price": 6000
+    },
+    {
+      "id": 7,
+      "title": "TestTitle7",
+      "category": "Test category",
+      "price": 7000
+    },
+    {
+      "id": 8,
+      "title": "TestTitle8",
+      "category": "Test category",
+      "price": 8000
+    }
+  ],
   "t1_assets": [
     {
       "id": 1,

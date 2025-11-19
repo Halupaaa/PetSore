@@ -8,7 +8,7 @@ const store = new Store({ items: [], loading: false, error: null });
 async function loadItems() {
   store.set({ loading: true });
   try {
-    const res = await api.get(endpoints.items, { params: { _limit: 6 } });
+    const res = await api.get(endpoints.items);
     store.set({ items: res.data, loading: false, error: null });
   } catch (err) {
     store.set({ error: err.message, loading: false });

@@ -4,8 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev:webpack": "concurrently \"webpack serve --mode=development\" \"json-server --watch api/routes.json --port 5174\"",
-    "dev:vite": "concurrently \"vite\" \"json-server --watch api/routes.json --port 5174\"",
+    "dev:webpack": "concurrently \"webpack serve --mode=development\" \"json-server --watch api/db.json --routes api/routes.json --port 5174\"",
+    "dev:vite": "concurrently \"vite\" \"json-server --watch api/db.json --routes api/routes.json --port 5174\"",
     "build:webpack": "npm run lint && webpack --mode=production",
     "build:vite": "npm run lint && vite build",
     "preview:webpack": "npm run lint && webpack serve --mode=development",
