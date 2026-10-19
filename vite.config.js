@@ -1,4 +1,5 @@
 import { defineConfig } from "vite";
+import { ViteEjsPlugin } from 'vite-plugin-ejs';
 
 export default defineConfig({
   server: { port: 5173, open: true },
@@ -7,5 +8,9 @@ export default defineConfig({
   build: {
     outDir: "dist",
     sourcemap: true
-  }
+  },
+  plugins: [
+    ViteEjsPlugin()
+  ]
 });
+

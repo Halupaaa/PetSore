@@ -3,21 +3,23 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Web Labs Starter</title>
+  <title>Pet Store</title>
 </head>
 <body>
-  <header class="u-header">
-    <nav class="u-nav">
-      <a href="#" class="u-logo">MySite</a>
-      <ul class="u-menu">
-        <li><a href="#/home">Home</a></li>
-        <li><a href="#/list">List</a></li>
-        <li><a href="#/about">About</a></li>
-      </ul>
-    </nav>
+  <header class="nav">
+    <%- include('partial/nav.html') %>
   </header>
-  <main id="app"></main>
-  <footer class="u-footer">© 2025</footer>
+  <hero class="hero">
+    <%- include('partial/index/hero.html') %>
+  </hero>
+  <main class="main">
+    <%- include('partial/index/benefits.html') %>
+    <%- include('partial/index/categories.html') %>
+    <%- include('partial/index/feedbacks.html') %>
+  </main>
+  <footer class="footer">
+    <%- include('partial/footer.html') %>
+  </footer>
   <script type="module" src="/src/js/main.js"></script>
 </body>
 </html>
