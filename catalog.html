@@ -1,0 +1,50 @@
+<%- include('partial/nav.html') %>
+<h2 class="catalog__title">Dog Food</h2>
+<div class="catalog__container">
+    <div class="catalog__filters">
+        <h3 class="catalog__filters-title">Filters</h3>
+        <hr>
+        <h3 class="catalog__filters-subtitle">Pet Type</h3>
+        <input type="checkbox" checked class="catalog__filters-checkbox">Dogs
+        <input type="checkbox" checked class="catalog__filters-checkbox">Cats
+        <input type="checkbox" checked class="catalog__filters-checkbox">Birds
+        <input type="checkbox" checked class="catalog__filters-checkbox">Rodents
+        <hr>
+        <h3 class="catalog__filters-subtitle">Food Type</h3>
+        <input type="checkbox" checked class="catalog__filters-checkbox">Dry food
+        <input type="checkbox" checked class="catalog__filters-checkbox">Wet food
+        <input type="checkbox" checked class="catalog__filters-checkbox">Treats
+        <input type="checkbox" checked class="catalog__filters-checkbox">Grain-free
+        <hr>
+        <h3 class="catalog__filters-subtitle">Price</h3>
+        <input type="range" min="0" max="3000" />
+    </div>
+    <div class="catalog__items">
+        <div class="catalog__item">
+            <img class="catalog__item-image" src="assets\catalog\item-temp.svg" alt="temp item"/>
+            <h3 class="catalog__item-title">Lamb & Rice Adult, 3 kg</h3>
+            <div class="catalog__item-details">
+                <p class="catalog__item-price">₴620</p>
+                <a href="product-details.html" class="catalog__item-button button-secondary" target="_blank">Details</a>
+            </div>
+        </div>   
+        <div class="catalog__item">
+            <img class="catalog__item-image" src="assets\catalog\item-temp.svg" alt="temp item"/>
+            <h3 class="catalog__item-title">Chicken Dry Food, 10 kg</h3>
+            <div class="catalog__item-details">
+                <p class="catalog__item-price">₴1,240</p>
+                <a href="product-details.html" class="catalog__item-button button-secondary" target="_blank">Details</a>
+            </div>
+        </div>   
+        <div class="catalog__item">
+            <img class="catalog__item-image" src="assets\catalog\item-temp.svg" alt="temp item"/>
+            <h3 class="catalog__item-title">Grain-Free Salmon, 12 kg</h3>
+            <div class="catalog__item-details">
+                <p class="catalog__item-price">₴1,480</p>
+                <a href="product-details.html" class="catalog__item-button button-secondary" target="_blank">Details</a>
+            </div>
+        </div> 
+    </div>
+</div>
+
+<%- include('partial/footer.html') %>

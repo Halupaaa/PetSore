@@ -1,4 +1,22 @@
 {
+  "food_items": [
+    {
+      "id": 1,
+      "title": "Dog Food",
+      "category": "Food",
+      "price": 20
+    },
+    {
+      "id": 2,
+      "title": "Cat Food",
+      "category": "Food",
+      "price": 15
+    }
+  ],
+  
+  
+  
+  
   "test_items": [
     {
       "id": 1,
