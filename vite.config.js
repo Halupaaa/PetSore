@@ -1,6 +1,10 @@
-import { resolve } from "path";
+import { fileURLToPath } from "node:url";
+import { dirname, resolve } from "node:path";
 import { defineConfig } from "vite";
-import { ViteEjsPlugin } from 'vite-plugin-ejs';
+import { ViteEjsPlugin } from "vite-plugin-ejs";
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 export default defineConfig({
   base: "./",
