@@ -1,56 +1,56 @@
-<%- include('partial/nav.html') %>
-
-<div class="product-details__container">
-    <img class="product-details__image" src="assets\catalog\item-temp.svg" alt="temp item"/>
-    <div class="product-details__info">
-        <h2 class="product-details__title">Grain-Free Chicken Dry Dog Food</h2>
-        <br>
-        <h2 class="product-details__price">₴1,240</h2>
-        <p class="product-details__pack-size">Pack size</p>
-        <div class="product-details__buttons">
-            <button class="product-details__button button-secondary">1.5 kg</button>
-            <button class="product-details__button button-secondary">3 kg</button>
-            <button class="product-details__button button-secondary">10 kg</button>
-        </div>
-        <div class="product-details__quantity">
-            <button class="product-details__button button-count">+ 1 -</button>
-            <a href="cart.html" class="product-details__button button-primary">Add to cart</a>
+<header class="product-details__header"><%- include('partial/nav.html') %></header>
+<main class="product-details__main">
+    <div class="product-details__container">
+        <img class="product-details__image" src="assets\catalog\item-temp.svg" alt="temp item"/>
+        <div class="product-details__info">
+            <h2 class="product-details__title">Grain-Free Chicken Dry Dog Food</h2>
+            <br>
+            <h2 class="product-details__price">₴1,240</h2>
+            <p class="product-details__pack-size">Pack size</p>
+            <div class="product-details__buttons">
+                <button class="product-details__button button-secondary">1.5 kg</button>
+                <button class="product-details__button button-secondary">3 kg</button>
+                <button class="product-details__button button-secondary">10 kg</button>
+            </div>
+            <div class="product-details__quantity">
+                <button class="product-details__button button-count">+ 1 -</button>
+                <a href="./cart.html" class="product-details__button button-primary">Add to cart</a>
+            </div>
         </div>
     </div>
-</div>
-<div>
     <div>
-        <h3 class="product-details__section-title">Ingredients</h3>
-        <p class="product-details__ingredients">Chicken meal (32%), brown rice, oat groats, chicken fat, dried beet pulp, flaxseed, dried egg, fish oil, chicory root, vitamins and minerals.</p>
-        <p class="product-details__description">No artificial colors, flavors or preservatives. Suitable for adult dogs of medium and large breeds from 12 months of age.</p>
+        <div>
+            <h3 class="product-details__section-title">Ingredients</h3>
+            <p class="product-details__ingredients">Chicken meal (32%), brown rice, oat groats, chicken fat, dried beet pulp, flaxseed, dried egg, fish oil, chicory root, vitamins and minerals.</p>
+            <p class="product-details__description">No artificial colors, flavors or preservatives. Suitable for adult dogs of medium and large breeds from 12 months of age.</p>
+        </div>
+        <div class="product-details__nutritional-value">
+            <h3 class="product-details__section-title">Nutritional value</h3>
+            <div class="product-details__nutritional-value-item">
+                <p class="product-details__nutritional-value-item-label">Crude protein</p>
+                <p class="product-details__nutritional-value-item-value">26%</p>
+            </div>
+            <div class="product-details__nutritional-value-item">
+                <p class="product-details__nutritional-value-item-label">Crude fat</p>
+                <p class="product-details__nutritional-value-item-value">14%</p>
+            </div>
+            <div class="product-details__nutritional-value-item">
+                <p class="product-details__nutritional-value-item-label">Crude fiber</p>
+                <p class="product-details__nutritional-value-item-value">3.5%</p>
+            </div>
+            <div class="product-details__nutritional-value-item">
+                <p class="product-details__nutritional-value-item-label">Moisture</p>
+                <p class="product-details__nutritional-value-item-value">9%</p>
+            </div>
+            <div class="product-details__nutritional-value-item">
+                <p class="product-details__nutritional-value-item-label">Ash</p>
+                <p class="product-details__nutritional-value-item-value">7%</p>
+            </div>
+            <div class="product-details__nutritional-value-item">
+                <p class="product-details__nutritional-value-item-label">Omega-3</p>
+                <p class="product-details__nutritional-value-item-value">0.6%</p>
+            </div>
+        </div>
     </div>
-    <div class="product-details__nutritional-value">
-        <h3 class="product-details__section-title">Nutritional value</h3>
-        <div class="product-details__nutritional-value-item">
-            <p class="product-details__nutritional-value-item-label">Crude protein</p>
-            <p class="product-details__nutritional-value-item-value">26%</p>
-        </div>
-        <div class="product-details__nutritional-value-item">
-            <p class="product-details__nutritional-value-item-label">Crude fat</p>
-            <p class="product-details__nutritional-value-item-value">14%</p>
-        </div>
-        <div class="product-details__nutritional-value-item">
-            <p class="product-details__nutritional-value-item-label">Crude fiber</p>
-            <p class="product-details__nutritional-value-item-value">3.5%</p>
-        </div>
-        <div class="product-details__nutritional-value-item">
-            <p class="product-details__nutritional-value-item-label">Moisture</p>
-            <p class="product-details__nutritional-value-item-value">9%</p>
-        </div>
-        <div class="product-details__nutritional-value-item">
-            <p class="product-details__nutritional-value-item-label">Ash</p>
-            <p class="product-details__nutritional-value-item-value">7%</p>
-        </div>
-        <div class="product-details__nutritional-value-item">
-            <p class="product-details__nutritional-value-item-label">Omega-3</p>
-            <p class="product-details__nutritional-value-item-value">0.6%</p>
-        </div>
-    </div>
-</div>
-
-<%- include('partial/footer.html') %>
+</main>
+<footer class="product-details__footer"><%- include('partial/footer.html') %></footer>
